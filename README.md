@@ -2,7 +2,7 @@
 # CQRS using MediatR
 This is a code example of how to use CQRS design pattern using MediatR which itself is a design pattern of Mediator. Below is a UML diagram illustrating the detailed design for CQRS usage via C#. It looks like a bit complicated of the diagram, however showcasing a concrete use case clearly and logically, which may require you to take a little bit time to get familiar with how to employ CQRS pattern in practical projects.
 
-![UML](https://photos.fife.usercontent.google.com/pw/AP1GczPkWqVWwBh9hOwCz9h5TaSrQrM7wzoOA9LoKLDZSD4LdliXltuuOO0=w1074-h956-s-no-gm?authuser=0)
+![UML](https://photos.app.goo.gl/dwEQCN1iZzeQpd76A)
 
 Among the project assemblies, the ones of Infrastructure, Components, Api are what you should put emphasis on exploring and studing.
 

@@ -1,0 +1,9 @@
+{
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\Api",
+  "Components, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\Components",
+  "DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\DataModel",
+  "EventHandlers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\EventHandlers",
+  "Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\Events",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\Infrastructure",
+  "NotificationService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Flyinz\\Downloads\\NetCoreMediatrSample-master\\NotificationService"
+}

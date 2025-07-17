@@ -16,3 +16,13 @@ At the heart of the application's business logic, the "Components" domain handle
 ## Infrastructure
 The "Infrastructure" section addresses cross-cutting concerns and setup tasks. This includes implementing authentication, Cross-Origin Resource Sharing (CORS), middleware, and more. Notably, the infrastructure layer incorporates the concepts of CQRS, employing a mediator, command, query, and event bus pattern to facilitate communication and interaction between components.
 
+## CQRS
+CQRS stands for Command Query Responsibility Segregation. It is a pattern used in software architecture that separates the responsibilities for handling read operations (queries) from write operations (commands). The central idea behind
+CQRS is that the operations you use to update data (commands) are often very different from those used to read data (queries). As a result, separating them can lead to better performance, scalability, and flexibility in how the system is designed.
+
+In CQRS, instead of using the same data model for both reading and writing which is common in traditional CRUD-based approaches, you create separate models or even different storage mechanisms for reads and writes.
+
+## MediatR
+MediatR is a popular open-source .NET library that implements the Mediator Pattern. It provides a simple, lightweight framework for managing communication between components in an application while avoiding tight coupling between them. MediatR decouples the components of an application by promoting the use of messages (commands, queries, events, etc.) that are handled by a mediator, instead of direct communication between components.
+
+In simple terms, MediatR allows you to send a message (such as a command or query) through a central "mediator" that forwards the message to the appropriate handler. This is often used to implement features like CQRS or other messaging patterns, but it can be applied to a wide variety of scenarios in both simple and complex applications.
